@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBench", "TheBench\TheBench.csproj", "{45D2C255-7FED-47A0-AFE1-5644ECFAEC1E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FA713271-BD06-4771-80DC-8353774F5C8F} = {FA713271-BD06-4771-80DC-8353774F5C8F}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TheApps", "TheApps", "{F19411DA-BCAB-431D-87FA-3C202B53F274}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TheSupport", "TheSupport", "{78233C1F-78A1-4B7B-B7BC-0F5ABFF9ACF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonWorks", "TheSupport\CommonWorks.csproj", "{C7FA4E44-A2E1-4AB0-AA49-D111835B5CBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fractory", "Fractory", "{9E2608D7-EB68-4293-AD09-ECF9C32AD317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fractory", "TheApps\Fractory\Fractory.csproj", "{FA713271-BD06-4771-80DC-8353774F5C8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45D2C255-7FED-47A0-AFE1-5644ECFAEC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D2C255-7FED-47A0-AFE1-5644ECFAEC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D2C255-7FED-47A0-AFE1-5644ECFAEC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D2C255-7FED-47A0-AFE1-5644ECFAEC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FA4E44-A2E1-4AB0-AA49-D111835B5CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FA4E44-A2E1-4AB0-AA49-D111835B5CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FA4E44-A2E1-4AB0-AA49-D111835B5CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FA4E44-A2E1-4AB0-AA49-D111835B5CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA713271-BD06-4771-80DC-8353774F5C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA713271-BD06-4771-80DC-8353774F5C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA713271-BD06-4771-80DC-8353774F5C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA713271-BD06-4771-80DC-8353774F5C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7FA4E44-A2E1-4AB0-AA49-D111835B5CBB} = {78233C1F-78A1-4B7B-B7BC-0F5ABFF9ACF3}
+		{9E2608D7-EB68-4293-AD09-ECF9C32AD317} = {F19411DA-BCAB-431D-87FA-3C202B53F274}
+		{FA713271-BD06-4771-80DC-8353774F5C8F} = {9E2608D7-EB68-4293-AD09-ECF9C32AD317}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6170816B-7E6F-4058-A1B6-9ED89A8C5D77}
+	EndGlobalSection
+EndGlobal
